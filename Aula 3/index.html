@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advinhação</title>
+    <link rel="stylesheet" href="./Adivinhacao.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">Mentalista</h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="moedas"><br><br>            
+        
+        <p class="page-subtitle">
+            Digite um número de 0 a 10
+        </p>
+
+        <h1 class="page-title">Level Easy</h1>
+        <p class="page-subtitle">
+            Continue tentando ate acertar
+        </p>
+        <input class="teste" type="number" id="valor" size="2"><br>
+        <button type="submit" onclick="levelEasy()">Chutar</button>
+        <h2 id="Easy"></h2>
+
+        <!-- <h1 class="page-title">Level Medium</h1>
+        <p class="page-subtitle">
+            3 chances ou voce perde
+        </p>
+        <input class="teste" type="number" id="medio" size="2"><br>
+        <button type="submit" onclick="levelMedium()">Chutar</button>
+        <h2 id="Medium"></h2>   -->
+
+        <h1 class="page-title">Level Hard</h1>
+        <p class="page-subtitle">
+            UMA chance ou o numero muda
+        </p>
+        <input class="teste" type="number" id="dificil" size="2"><br>
+        <button type="submit" onclick="levelHard()">Chutar</button>
+        <h2 id="Hard"></h2>          
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <script src="./Adivinhacao.js"></script>
+</body>
+</html>
